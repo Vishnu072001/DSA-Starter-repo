@@ -83,27 +83,21 @@ graph.get(0).add(2); // edge from 0 -> 2
 | Greedy             | Make locally optimal choice     | Minimum Spanning Tree (Kruskal, Prim)|
 | Graph              | Traverse nodes                  | BFS, DFS, Dijkstra                    |
 
-
-### **5. Big O Notation**
-Measures time & space complexity of algorithms
+### 5. Big O Notation
+**Measures time & space complexity of algorithms**
 
 Examples:
 
-O(1) → Constant time
+- `O(1)` → Constant time  
+- `O(n)` → Linear time  
+- `O(log n)` → Logarithmic time  
+- `O(n²)` → Quadratic time  
 
-O(n) → Linear time
+### 6. Tips for Beginners
 
-O(log n) → Logarithmic time
+- Learn arrays and strings first, then linked lists  
+- Practice basic sorting & searching problems  
+- Solve 1 problem per day consistently  
+- Keep updating your `Notes/DSA_Theory.md`
 
-O(n²) → Quadratic time
-
-### **6. Tips for Beginners**
-
-Learn arrays and strings first, then linked lists
-
-Practice basic sorting & searching problems
-
-Solve 1 problem per day consistently
-
-Keep updating your Notes/DSA_Theory.md
 
