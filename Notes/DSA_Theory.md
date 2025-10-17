@@ -21,29 +21,6 @@
 | Hash-based  | HashMap, HashSet       | Fast search, insert, delete     |
 
 ---
-# DSA Basic Notes – Starter Version
-
-## 1. What is DSA?
-**DSA (Data Structures and Algorithms)** is the study of:  
-- **Data Structures:** Ways to store and organize data efficiently  
-- **Algorithms:** Step-by-step instructions to solve problems
-
-**Why DSA is important:**  
-- Improves **problem-solving skills**  
-- Optimizes **time and memory usage**  
-- Essential for **interviews and competitive programming**
-
----
-
-## 2. Types of Data Structures
-
-| Type        | Examples                | Use Cases                        |
-|------------|------------------------|---------------------------------|
-| Linear      | Arrays, Linked Lists, Stack, Queue | Ordered data, simple traversal |
-| Non-linear  | Trees, Graphs, Heaps   | Hierarchical or interconnected data |
-| Hash-based  | HashMap, HashSet       | Fast search, insert, delete     |
-
----
 
 ## 3. Examples of Data Structures in Java
 
@@ -95,7 +72,7 @@ graph.get(0).add(1); // edge from 0 -> 1
 graph.get(0).add(2); // edge from 0 -> 2
 
 
-4. Common Algorithm Types
+### 4. Common Algorithm Types
 
 | Type               | Description                     | Examples                               |
 |-------------------|---------------------------------|---------------------------------------|
@@ -107,7 +84,7 @@ graph.get(0).add(2); // edge from 0 -> 2
 | Graph              | Traverse nodes                  | BFS, DFS, Dijkstra                    |
 
 
-5. Big O Notation
+### **5. Big O Notation**
 Measures time & space complexity of algorithms
 
 Examples:
@@ -120,7 +97,7 @@ O(log n) → Logarithmic time
 
 O(n²) → Quadratic time
 
-6. Tips for Beginners
+### **6. Tips for Beginners**
 
 Learn arrays and strings first, then linked lists
 
