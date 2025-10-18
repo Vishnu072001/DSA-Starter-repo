@@ -26,7 +26,7 @@ Output: Indices [2, 4] → Numbers (9 + 10)
 
 The **Reverse String** problem is a classic question in Data Structures & Algorithms.
 
-### Problem
+## Problem
 Given a string, reverse it without using any built-in reverse functions.
 
 ### Approach
@@ -57,15 +57,60 @@ Given a string, reverse it without using any built-in reverse functions.
 
 **Output:** `"avaj"`
 
+---
 
 ### Complexity
 - **Time:** `O(n)` — each character is visited once.
 - **Space:** `O(1)` — reversal happens in place, no extra structures used.
 
----
+
 
 ### Key Concept
 - Uses the **Two-Pointer Technique**, a common approach for reversing arrays, checking palindromes, and similar problems.
 - Works for both even and odd-length strings with no extra conditions needed.
 
 ---
+
+# Find Maximum Element - Notes by Jorge Flores
+
+The **Find Maximum Element** problem is one of the most fundamental exercises in Data Structures & Algorithms.
+
+## Problem
+Given an array of integers, find and return the largest value.
+
+
+### Approach
+- Assume the first element of the array is the maximum.
+- Loop through the rest of the array.
+- If any element is greater than the current maximum, update `max`.
+- Return the final `max` value at the end of the loop.
+
+### Walkthrough
+
+**Input:** `[3, 7, 5, 9, 1000]`
+
+| Step | i | arr[i] | Current Max | Action |
+|------|---|---------|--------------|---------|
+| 1 | 0 | 3 | 3 | Initialize max = 3 |
+| 2 | 1 | 7 | 3 → 7 | Update max |
+| 3 | 2 | 5 | 7 | No change |
+| 4 | 3 | 9 | 7 → 9 | Update max |
+| 5 | 4 | 1000 | 9 → 1000 | Update max |
+
+**Output:** `1000`
+
+---
+
+### Complexity
+- **Time:** `O(n)` — the array is traversed once.
+- **Space:** `O(1)` — only a single variable (`max`) is used.
+
+
+
+### Key Concept
+- Demonstrates **linear traversal** over an array.
+- Shows how to track and update a running value during iteration.
+- Useful foundation for more advanced problems like **finding min, average, or range**.
+
+---
+
