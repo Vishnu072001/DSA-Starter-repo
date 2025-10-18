@@ -98,6 +98,6 @@ Examples:
 - Learn arrays and strings first, then linked lists  
 - Practice basic sorting & searching problems  
 - Solve 1 problem per day consistently  
-- Keep updating your `Notes/DSA_Theory.md`
+
 
 
