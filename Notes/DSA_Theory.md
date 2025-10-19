@@ -218,3 +218,42 @@ Given an array of integers, find and return the largest value.
 
 ---
 
+# Valid Palindrome – Notes by Jorge Flores
+
+The **Valid Palindrome** problem is a common string and two-pointer question in Data Structures & Algorithms.
+
+## Problem
+Check if a given string reads the same forwards and backwards, ignoring punctuation, spaces, and case sensitivity.
+
+### Approach
+- Use two pointers (left, right) starting from both ends of the string.
+- Skip over any characters that are not letters or digits.
+- Compare characters in lowercase form to ensure case doesn’t matter.
+- Move the pointers inward until they meet or cross.
+- If a mismatch is found, return `false`; otherwise, return `true`.
+
+### Walkthrough
+
+**Input:** `"madam"`
+
+| Step | left | right | cL  | cR  | Match? | Action               |
+| ---- | ---- | ----- | --- | --- | ------ | -------------------- |
+| 1    | 0    | 4     | 'm' | 'm' | ✅      | move inward          |
+| 2    | 1    | 3     | 'a' | 'a' | ✅      | move inward          |
+| 3    | 2    | 2     | 'd' | 'd' | ✅      | pointers meet → stop |
+
+
+**Output:** Is Palindrome: `true`
+
+---
+
+### Complexity
+- **Time:** `O(n)` — each character is checked at most once
+- **Space:** `O(1)` — only two pointers are used, no extra data structures
+
+
+### Key Concept
+- Uses the **Two-Pointer Technique**, which is efficient for palindrome, reverse, and comparison problems.
+- Can be easily extended for numeric or alphanumeric strings.
+
+---
