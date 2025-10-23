@@ -4,10 +4,12 @@ import java.util.Scanner;
 // check even or odd 
 public class OddEven{
     public void oddeven(int n){
-        if(n%2==0)
+        if(n%2==0){
             System.out.println("it is an even number");
-        else
+        }
+        else{
             System.out.println("it is not a even number");
+        }
             
         }
         public static void main(String[] args) {
